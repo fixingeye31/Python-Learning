@@ -1,0 +1,45 @@
+class Student:
+    def __init__(self, shirtcolor, favoritedrink, favoritefood):
+        self.favoritedrink = favoritedrink
+        self.shirtcolor = shirtcolor
+        self.favoritefood = favoritefood
+        
+    def Interests(self):
+        return '{} {} {}'.format(self.shirtcolor, self.favoritedrink, self.favoritefood)
+
+stud1 = Student('Red', 'Milk', 'Chicken')
+stud2 = Student('Blue', 'Tea', 'Rice')
+stud3 = Student('Green', 'Orange Juice', 'Jerky')
+stud4 = Student('Purple', 'Apple Juice', 'Hamburger')
+
+
+print(stud1.Interests())
+
+print(Student.Interests(stud3))
+
+
+#print(stud1)
+#print(stud2)
+#print(stud3)
+#print(stud4)
+
+#stud1.shirtcolor = 'Red'
+#stud1.favoritedrink = 'Milk'
+#stud1.favoritefood = 'Chicken'
+
+#stud2.shirtcolor = 'Blue'
+#stud2.favoritedrink = 'Tea'
+#stud2.favoritefood = 'Rice'
+
+#stud3.shirtcolor = 'Green'
+#stud3.favoritedrink = 'Orange Juice'
+#stud3.favoritefood = 'Jerky'
+
+#stud4.shirtcolor = 'Purple'
+#stud4.favoritedrink = 'Apple Juice'
+#stud4.favoritefood = 'Hamburger'
+
+#print(stud1.favoritedrink)
+#print(stud2.favoritedrink)
+#print(stud3.favoritedrink)
+#print(stud4.favoritedrink)
