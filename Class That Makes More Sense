@@ -1,0 +1,16 @@
+class Syllabus:
+    def __init__(self, wordcount, sourcecount, pagecount):
+        self.wordcount = wordcount
+        self.sourcecount = sourcecount
+        self.pagecount = pagecount
+        
+        
+    def Requirments(self):
+        return 'For this assignment I expect {} words, {} sources and {} pages.'.format(self.wordcount, self.sourcecount, self.pagecount)
+    
+project1 = Syllabus('500', '5', '3')
+project2 = Syllabus('1000', '10', '6')
+project3 = Syllabus('1500', '15', '9')
+
+print(project1.Requirments())
+print(Syllabus.Requirments(project3))
