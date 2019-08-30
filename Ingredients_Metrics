@@ -1,0 +1,11 @@
+### Manual Entry for Ingredients that will be incorporated into a recipe
+
+def ingredients():
+
+    ingredient_name = input("Name of Ingredient: ")
+    amount_of_ingredient = input("How much of this ingredient are you using?: ")     #Need to add drop down for metric
+    calories_in_ingredient = input("How many Calories: ")
+    fats_in_ingredient = input("How much fat: ")                                     #Add types of fats and amounts
+    minerals_in_ingredient = input("How many minerals: ")                            #Eventually add minerals to choose from and add the amount next to it with optional metrics
+
+
