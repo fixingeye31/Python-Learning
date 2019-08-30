@@ -1,0 +1,7 @@
+def scien_note():
+
+    number = float(input("Give me a number to convert into scientific notation: "))
+    print(format(number, '.4e'))
+
+
+scien_note()
